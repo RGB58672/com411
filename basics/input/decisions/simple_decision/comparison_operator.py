@@ -1,8 +1,10 @@
 print("Please enter the first number")
-first_number == int(input())
+first == int(input())
 print("Please enter the second number")
-second_number == int(input())
-if (first_number) > (second_number):
-  print("The first number is the bigger number")
-else:
-  print("The second number is the bigger number")
+second == int(input())
+if (first > second):
+  print("{} is bigger than {}".format(first,second))
+elif (second > first):
+  print("{} is smaller than {}".format(first,second))
+else (first = second):
+  print("Both numbers are equal")
