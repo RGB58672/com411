@@ -8,3 +8,5 @@ elif direction == "left":
   print("I am painting in the leftward direction!")
 elif direction == "right":
   print("I am painting in the rightward direction!")
+else:
+  print("Error, direction not specified!")
