@@ -1,8 +1,21 @@
+# Display a box
+print("##########")
+print("#        #")
+print("#        #")
+print("##########")
 # Ask user to enter character for eyes
 print("Please enter a character for the eye")
-character = input()
+eye = input()
 print("Beep's expression is now as follows:")
 print("##########")
-print("#  i  i  #")
+print("#  " + eye + "  " + eye + "  #")
 print("#  ----  #")
 print("##########")
+
+
+1 + 2 
+
+3
+
+"1" + "2"
+"12"
