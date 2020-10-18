@@ -5,4 +5,5 @@ def crossed_bridge(steps):
         print("The bridge is collapsing!")
     else:
         print("We must keep going!")
-crossed_bridge(steps)
+crossed_bridge(3)
+crossed_bridge(6)
