@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def search(file_path):
   print("Searching...", end="")
   sections = []
