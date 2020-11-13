@@ -17,4 +17,7 @@ def path():
 def run():
   values = path()
   plt.plot(values[0], values [1], 'r--o')
+  plt.xlabel("x values")
+  plt.ylabel("y values")
+  plt.show()
 run()
